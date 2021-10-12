@@ -67,7 +67,7 @@ public class PendingIntentChecker {
         }
     };
 
-    private final int FLAG_IMMUTABLE = 1<<28;
+    private final int FLAG_IMMUTABLE = 1<<26;
 
     List<SootMethod> allIntentMethods = new ArrayList<>();
 
